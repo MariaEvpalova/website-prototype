@@ -1,0 +1,119 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 12%;
+    padding: 18px 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-size: 0.95rem;
+}
+
+#first img {
+    width: 60%;
+}
+
+#first {
+    margin: 0 12%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 96px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+ p {
+    color: #737B7D;
+    padding: 24px 0;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 128px 0;
+}
+
+#features h1 {
+    width: 43%;
+    text-align: center;
+    padding-bottom: 56px;
+}
+
+#features ul {
+    align-items: end;
+    gap: 156px;
+}
+
+#features li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features h2 {
+    font-size: 1.3rem;
+}
+
+#get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 0;
+}
+
+#get-started p {
+    text-align: center;
+}
+
+#subscribe {
+    display: flex;
+    padding: 72px 12rem;
+    align-items: center;
+    gap: 36px;
+}
+
+#subscribe img {
+    width: 48%;
+}
+
+#subscribe h1 {
+    padding-bottom: 24px;
+}
+
+#subscribe input {
+    border: none;
+    background-color: #f0f0f0;
+    padding: 11px 20px;
+    width: auto;
+    flex-grow: 1;
+}
+
+#subscribe > div > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+footer {
+    background-color: #373F41;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 24px;
+}
