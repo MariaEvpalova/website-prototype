@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 header {
     display: flex;
     align-items: center;
@@ -20,6 +24,7 @@ button {
     padding: 12px 20px;
     font-size: 1.1rem;
     font-size: 0.95rem;
+    border-radius: 5px;
 }
 
 #first img {
@@ -36,9 +41,10 @@ button {
 
 h1 {
     font-weight: 600;
+    font-size: calc(1.375rem + 1.5vw - 0.4rem);
 }
 
- p {
+p {
     color: #737B7D;
     padding: 24px 0;
 }

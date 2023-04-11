@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    --light-div-color: white;
+    --dark-div-color: #f0f0f0;
+    --par-color: #737B7D;
+    --button-back-color: black;
+    --button-text-color: white;
+    --feature-back-color: none;
+    --feature-text-color: black;
+}
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+button {
+    border: none;
+    background-color: var(--button-back-color);
+    color: var(--button-text-color);
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-size: 0.95rem;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: calc(1.375rem + 1.5vw - 0.4rem);
+}
+
+p {
+    color: var(--par-color);
+    font-size: 1.4rem;
+}
+
+div.dark {
+    background-color: var(--dark-div-color);
+}
+
+div.dark, div.light {
+    padding: 0 12vh;
+}
+
+div.light {
+    background-color: var(--light-div-color);
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    padding: 72px 0;
+    gap: 156px;
+}
+
+.feature img {
+    width: 45%;
+}
+
+.feature button {
+    background: var(--feature-back-color);
+    color: var(--feature-text-color);
+    border: 1px solid var(--feature-text-color);
+    padding: 16px 36px;
+    margin-top: 12px;
+}
+
+div.light > .feature {
+    justify-content: flex-end;
+}
+
+#get-started {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+}
+
+#get-started h1 {
+    margin: 0;
+}
+
+#get-started p {
+    color: var(--feature-text-color);
+    font-size: 1.7rem;
+    margin: 16px 0 0 0;
+}
